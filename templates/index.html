@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"></link>
+
+    <style>
+        h1{
+            text-align: center;
+            color: #c4e5ff;
+            text-transform: uppercase;
+            background-color: darkblue;
+            font-weight: bolder;
+            text-shadow: 12px 8px 12px #07141e;
+        }
+
+        h3 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1>My first Django Project MediSync</h1>
+<h3>Welcome to MediSync</h3>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dicta ducimus laboriosam, nisi obcaecati omnis quo rem sed sint suscipit? Beatae ea et fugit magnam maxime nihil quia saepe vel!</span><span>Aliquid animi assumenda culpa dolor dolore dolorem earum et fugiat hic impedit iure labore magnam modi nam nemo nisi odio officia pariatur quisquam ratione rem repellat, repudiandae sit vitae voluptates.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa cupiditate delectus doloremque, esse facilis fuga inventore praesentium vel? Amet animi distinctio expedita fugit impedit nam, odit recusandae saepe voluptatibus!</span><span>Adipisci, alias aperiam asperiores autem consequuntur cupiditate debitis dolores eum illo itaque minima minus molestias nemo nihil nobis officia pariatur provident quas qui quisquam quod rem sit ut voluptatem voluptatum!</span></p>
+
+<img src="{% static 'assets/img_0.png' %}" alt="">
+<img src="{% static 'assets/img_1.png' %}" alt="">
+<img src="{% static 'assets/img_2.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_4.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+
+
+</body>
+</html>

@@ -6,12 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About US</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}"></link>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
 
-<h1>About Our Business</h1>
-<a href="{% url 'home' %}">Home</a>
-<a href="{% url 'contact' %}">Contact</a>
+<h1 class="text-danger text-center">About Our Business</h1>
+<a href="{% url 'home' %}" class="btn btn-primary">Home</a>
+<a href="{% url 'contact' %}" class="btn btn-outline-dark">Contact</a>
 
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab doloremque ipsa iusto magnam nisi numquam obcaecati voluptatem. Aliquid, cupiditate harum incidunt obcaecati quibusdam repudiandae tempore temporibus ullam unde. Explicabo, veniam?</span><span>Aliquam excepturi expedita iusto minus qui quisquam tempora tenetur voluptatibus. At distinctio dolorem doloremque ea, earum hic nam nemo nobis obcaecati placeat reprehenderit, sint vel? Ad ipsa odit temporibus ut.</span><span>Ab aliquam aliquid aperiam atque commodi culpa cupiditate et excepturi illum laborum libero minima necessitatibus neque nihil nobis omnis optio perferendis, quam, quia repellat repellendus saepe sapiente sit ut, vel.</span></p>
 
